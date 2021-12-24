@@ -2,5 +2,36 @@ body {
   background: cornsilk;
 }
 
+header h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: right;
+}
+
+.nav-list ul {
+  display: none;
+}
+
+.nav-list:hover ul {
+  display: block;
+}
+
 #about {
+  position: relative;
+  left: 10%;
+  width: 50%;
+}
+
+.run-buddy {
+  border-style: groove;
+  border-width: 0.2em;
+  width: 150px;
+}
+
+.run-buddy h3 {
+  font-size: 25px;
 }
