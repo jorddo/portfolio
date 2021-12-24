@@ -1,7 +1,3 @@
-body {
-  background: cornsilk;
-}
-
 header h1 {
   display: flex;
   justify-content: center;
@@ -26,12 +22,27 @@ header h1 {
   width: 50%;
 }
 
-.run-buddy {
-  border-style: groove;
-  border-width: 0.2em;
-  width: 150px;
+.projects {
+  display: flex;
 }
 
-.run-buddy h3 {
-  font-size: 25px;
+.run-buddy {
+  flex: 1;
+  border: 2px solid black;
+}
+
+.box {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.horiseon {
+  flex: 1;
+  border: 2px solid black;
+}
+
+.placeholder {
+  flex: 1;
+  border: 2px solid black;
 }
