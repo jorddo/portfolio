@@ -27,22 +27,33 @@ header h1 {
 }
 
 .run-buddy {
+  flex: 2;
+  border: 2px solid black;
+  margin: 3px;
+}
+
+.horiseon {
   flex: 1;
   border: 2px solid black;
+  margin: 3px;
+}
+
+.placeholder {
+  flex: 1;
+  border: 2px solid black;
+  margin: 3px;
 }
 
 .box {
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
+  height: 100%;
 }
 
-.horiseon {
-  flex: 1;
-  border: 2px solid black;
-}
-
-.placeholder {
-  flex: 1;
-  border: 2px solid black;
+.small-box {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 100%;
 }
