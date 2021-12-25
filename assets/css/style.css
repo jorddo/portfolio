@@ -30,6 +30,8 @@ header h1 {
   flex: 2;
   border: 2px solid black;
   margin: 3px;
+  background-image: url(../../assets/images/run-buddy.PNG);
+  height: 50px;
 }
 
 .horiseon {
@@ -49,6 +51,7 @@ header h1 {
   align-items: flex-end;
   justify-content: flex-start;
   height: 100%;
+  background: transparent;
 }
 
 .small-box {
@@ -56,4 +59,8 @@ header h1 {
   align-items: flex-end;
   justify-content: flex-start;
   height: 100%;
+}
+
+.rb-text {
+  font-family: 'Roboto', sans-serif;
 }
