@@ -1,3 +1,23 @@
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
 header h1 {
   display: flex;
   justify-content: center;
@@ -34,6 +54,10 @@ header h1 {
   height: 50px;
 }
 
+.run-buddy:hover {
+  animation: bounce 1s;
+}
+
 .horiseon {
   flex: 1;
   border: 2px solid black;
@@ -63,4 +87,5 @@ header h1 {
 
 .rb-text {
   font-family: 'Roboto', sans-serif;
+  font-size: 25px;
 }
