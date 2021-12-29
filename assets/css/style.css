@@ -37,13 +37,14 @@ header {
 }
 
 .social-links svg {
-  height: 48px;
-  width: 48px;
+  height: 40px;
+  width: 40px;
 }
 
 .icon {
   fill: white;
 }
+
 /* Landing Page */
 
 /* About Section */
