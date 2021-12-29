@@ -10,6 +10,7 @@ header {
   background-color: #4a4a4a;
   display: flex;
   flex-direction: column;
+  padding: 1rem 0;
 }
 
 .sidebar-links {
@@ -17,6 +18,7 @@ header {
   list-style: none;
   padding: 0 1.5rem;
   flex-grow: 1;
+  margin: 0;
 }
 
 .sidebar-links li {
@@ -30,8 +32,18 @@ header {
 
 .social-links {
   padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
+.social-links svg {
+  height: 48px;
+  width: 48px;
+}
+
+.icon {
+  fill: white;
+}
 /* Landing Page */
 
 /* About Section */
