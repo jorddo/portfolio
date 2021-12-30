@@ -130,6 +130,14 @@ main {
 
 /* About Section */
 
+#about {
+  margin: 0 2rem 14rem 2rem;
+}
+
+#about p {
+  font-style: italic;
+}
+
 /* Work Section */
 .projects {
   display: flex;
