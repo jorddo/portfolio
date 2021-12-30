@@ -101,6 +101,7 @@ main {
 /* Work Section */
 .projects {
   display: flex;
+  margin: 0 5rem 0 5rem;
 }
 
 .run-buddy {
@@ -108,6 +109,7 @@ main {
   color: white;
   text-decoration: none;
   background-image: url(https://user-images.githubusercontent.com/94631019/147771471-03d5c74a-538a-46db-861c-51e768e60ea3.PNG);
+  height: 15rem;
 }
 
 .wrapper {
@@ -126,11 +128,13 @@ main {
   color: white;
   text-decoration: none;
   background-image: url(https://user-images.githubusercontent.com/94631019/147771678-724ad2e7-615d-4a42-861e-14483da8cf3a.png);
+  height: 7rem;
 }
 
 .rb-gladiators {
   color: white;
   text-decoration: none;
   background-image: url(https://user-images.githubusercontent.com/94631019/147772025-6dc035d4-22fa-475f-ac3a-77535d0a1ac2.PNG);
+  height: 7rem;
 }
 /* Contact Section */
