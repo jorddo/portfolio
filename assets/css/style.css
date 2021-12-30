@@ -154,6 +154,7 @@ main {
   border: solid black 0.2rem;
   box-shadow: 0.2rem 0.2rem 0.6rem black;
   margin: 0.5rem;
+  background-size: cover;
 }
 
 .horiseon {
