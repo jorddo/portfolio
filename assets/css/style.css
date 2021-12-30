@@ -57,6 +57,10 @@ main {
   padding: 12rem 0 0 22rem;
 }
 
+.landing p {
+  padding: 0 0 0 22rem;
+}
+
 /* down arrow */
 .down-arrow {
   color: black;
@@ -95,5 +99,26 @@ main {
 /* About Section */
 
 /* Work Section */
+.projects {
+  display: flex;
+}
 
+.run-buddy {
+  flex-grow: 1;
+}
+
+.wrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.card {
+  border: solid black 0.2rem;
+  box-shadow: 0.2rem 0.2rem 0.6rem black;
+  margin: 0.5rem;
+}
+
+.horiseon {
+}
 /* Contact Section */
