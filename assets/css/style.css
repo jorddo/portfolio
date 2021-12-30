@@ -15,9 +15,15 @@ header {
 
 .sidebar-links {
   list-style: none;
-  padding: 0px 0.8rem;
+  padding: 0 0.8rem;
   flex-grow: 1;
   margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .sidebar-links {
+    padding: 0 1.5rem;
+  }
 }
 
 .sidebar-links li {
@@ -56,8 +62,20 @@ main {
   padding: 3rem 0 0 1rem;
 }
 
+@media only screen and (min-width: 769px) {
+  .landing h1 {
+    padding: 12rem 0 0 22rem;
+  }
+}
+
 .landing p {
   padding: 0 0 0 9rem;
+}
+
+@media only screen and (min-width: 769px) {
+  .landing p {
+    padding: 0 0 0 22rem;
+  }
 }
 
 /* down arrow */
@@ -68,8 +86,16 @@ main {
 
 .arrow {
   text-align: center;
-  margin: 8% 0;
+  margin: 40% 0;
 }
+
+@media only screen and (min-width: 769px) {
+  .arrow {
+    text-align: center;
+    margin: 8% 0;
+  }
+}
+
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
@@ -78,6 +104,12 @@ main {
 
 #Capa_1 {
   margin: 24rem 0 0 -6rem;
+}
+
+@media only screen and (min-width: 769px) {
+  #Capa_1 {
+    margin-top: 15rem;
+  }
 }
 
 @keyframes bounce {
@@ -95,6 +127,7 @@ main {
     transform: translateY(-15px);
   }
 }
+
 /* About Section */
 
 /* Work Section */
@@ -136,4 +169,5 @@ main {
   background-image: url(https://user-images.githubusercontent.com/94631019/147772025-6dc035d4-22fa-475f-ac3a-77535d0a1ac2.PNG);
   height: 7rem;
 }
+
 /* Contact Section */
