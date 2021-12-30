@@ -105,6 +105,9 @@ main {
 
 .run-buddy {
   flex-grow: 1;
+  color: white;
+  text-decoration: none;
+  background-image: url(https://user-images.githubusercontent.com/94631019/147771471-03d5c74a-538a-46db-861c-51e768e60ea3.PNG);
 }
 
 .wrapper {
@@ -120,5 +123,14 @@ main {
 }
 
 .horiseon {
+  color: white;
+  text-decoration: none;
+  background-image: url(https://user-images.githubusercontent.com/94631019/147771678-724ad2e7-615d-4a42-861e-14483da8cf3a.png);
+}
+
+.rb-gladiators {
+  color: white;
+  text-decoration: none;
+  background-image: url(https://user-images.githubusercontent.com/94631019/147772025-6dc035d4-22fa-475f-ac3a-77535d0a1ac2.PNG);
 }
 /* Contact Section */
