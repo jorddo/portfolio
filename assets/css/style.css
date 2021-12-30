@@ -15,8 +15,7 @@ header {
 
 .sidebar-links {
   list-style: none;
-  list-style: none;
-  padding: 0 1.5rem;
+  padding: 0px 0.8rem;
   flex-grow: 1;
   margin: 0;
 }
@@ -54,11 +53,11 @@ main {
 
 .landing h1 {
   font-size: 5rem;
-  padding: 12rem 0 0 22rem;
+  padding: 3rem 0 0 1rem;
 }
 
 .landing p {
-  padding: 0 0 0 22rem;
+  padding: 0 0 0 9rem;
 }
 
 /* down arrow */
@@ -78,7 +77,7 @@ main {
 }
 
 #Capa_1 {
-  margin-top: 15rem;
+  margin: 24rem 0 0 -6rem;
 }
 
 @keyframes bounce {
