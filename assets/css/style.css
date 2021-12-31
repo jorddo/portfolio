@@ -132,7 +132,16 @@ main {
 /* About Section */
 
 #about {
-  margin: 0 2rem 14rem 2rem;
+  height: 100vh;
+}
+
+.about-text {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 #about p {
