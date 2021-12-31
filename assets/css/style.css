@@ -7,7 +7,11 @@ section {
   padding: 1rem;
 }
 
-/* @media query for 4rem for full screen here*/
+@media only screen and (min-width: 769px) {
+  section {
+    padding: 4rem;
+  }
+}
 
 /* Sidebar */
 header {
@@ -27,7 +31,7 @@ header {
   margin: 0;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .sidebar-links {
     padding: 0 1.5rem;
   }
@@ -156,15 +160,15 @@ main {
 }
 
 .card {
-  border: solid black 0.2rem;
+  border: none black 0.2rem;
   box-shadow: 0.2rem 0.2rem 0.6rem black;
   margin: 0.5rem;
   background-size: cover;
 }
 
 .work-text {
-  background: lightgray;
-  color: black;
+  background: whitesmoke;
+  color: #4a4a4a;
   padding: 5px 1rem;
 }
 
