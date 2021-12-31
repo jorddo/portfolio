@@ -2,6 +2,13 @@
 * {
   font-family: 'Roboto', sans-serif;
 }
+
+section {
+  padding: 1rem;
+}
+
+/* @media query for 4rem for full screen here*/
+
 /* Sidebar */
 header {
   position: fixed;
@@ -56,26 +63,22 @@ main {
 }
 
 /* Landing Page */
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.landing {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 
 .landing h1 {
   font-size: 5rem;
-  padding: 3rem 0 0 1rem;
-}
-
-@media only screen and (min-width: 769px) {
-  .landing h1 {
-    padding: 12rem 0 0 22rem;
-  }
-}
-
-.landing p {
-  padding: 0 0 0 9rem;
-}
-
-@media only screen and (min-width: 769px) {
-  .landing p {
-    padding: 0 0 0 22rem;
-  }
 }
 
 /* down arrow */
@@ -86,20 +89,14 @@ main {
 
 .arrow {
   text-align: center;
-  margin: 40% 0;
-}
-
-@media only screen and (min-width: 769px) {
-  .arrow {
-    text-align: center;
-    margin: 8% 0;
-  }
 }
 
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
+  position: absolute;
+  bottom: 0;
 }
 
 #Capa_1 {
@@ -145,7 +142,7 @@ main {
 }
 
 .run-buddy {
-  flex-grow: 1;
+  flex-grow: 2;
   color: white;
   text-decoration: none;
   background-image: url(https://user-images.githubusercontent.com/94631019/147771471-03d5c74a-538a-46db-861c-51e768e60ea3.PNG);
@@ -163,6 +160,12 @@ main {
   box-shadow: 0.2rem 0.2rem 0.6rem black;
   margin: 0.5rem;
   background-size: cover;
+}
+
+.work-text {
+  background: lightgray;
+  color: black;
+  padding: 5px 1rem;
 }
 
 .horiseon {
