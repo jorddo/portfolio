@@ -62,7 +62,8 @@ header {
 }
 
 /* main style */
-main {
+main,
+footer {
   padding-left: 102px;
 }
 
@@ -196,3 +197,7 @@ main {
 }
 
 /* Contact Section */
+#contact {
+  display: flex;
+  height: 100vh;
+}
