@@ -152,7 +152,15 @@ footer {
 /* Work Section */
 .projects {
   display: flex;
-  margin: 0 5rem 0 5rem;
+  flex-direction: column;
+  margin: 0;
+}
+
+@media only screen and (min-width: 769px) {
+  .projects {
+    margin: 0, 5rem;
+    flex-direction: row;
+  }
 }
 
 .run-buddy {
@@ -200,4 +208,11 @@ footer {
 #contact {
   display: flex;
   height: 100vh;
+  padding-top: 24rem;
+}
+
+.prof-pic {
+  max-width: 150px;
+  object-fit: cover;
+  height: 150px;
 }
