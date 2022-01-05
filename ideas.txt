@@ -1,4 +1,0 @@
-portfolio ideas
-
-border radius on cards
-float on hover on cards
